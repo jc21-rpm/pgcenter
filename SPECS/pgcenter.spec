@@ -5,7 +5,7 @@
 
 Name:           pgcenter
 Version:        0.9.2
-Release:        1%{?dist}
+Release:        1
 Summary:        pgCenter is a command-line admin tool for observing and troubleshooting Postgres
 Group:          Applications/System
 License:        MIT
