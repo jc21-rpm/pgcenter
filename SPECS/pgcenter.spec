@@ -4,7 +4,7 @@
 %global gh_commit 9d19b16
 
 Name:           pgcenter
-Version:        0.10.1
+Version:        0.11.0
 Release:        1%{?dist}
 Summary:        pgCenter is a command-line admin tool for observing and troubleshooting Postgres
 Group:          Applications/System
@@ -37,6 +37,9 @@ install -Dm0755 bin/%{name} %{buildroot}%{_bindir}/%{name}
 %{_bindir}/%{name}
 
 %changelog
+* Tue Jun 23 2026 Jamie Curnow <jc@jc21.com> 0.11.1-1
+- https://github.com/lesovsky/pgcenter/releases/tag/v0.11.1
+
 * Tue May 19 2026 Jamie Curnow <jc@jc21.com> 0.10.1-1
 - https://github.com/lesovsky/pgcenter/releases/tag/v0.10.1
 
